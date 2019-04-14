@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferenceActivity">
+
+    <TextView
+        android:id="@+id/tvDefaultTip"
+        android:layout_width="96dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <SeekBar
+        android:id="@+id/sbDefaultTip"
+        android:layout_width="261dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <Button
+        android:id="@+id/btnSavePreference"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:text="Save Preference"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="126dp" />
+</android.support.constraint.ConstraintLayout>

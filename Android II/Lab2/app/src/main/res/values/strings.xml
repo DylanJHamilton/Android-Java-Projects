@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_rock">Rock</string>
+    <string name="btn_paper">Paper</string>
+    <string name="btn_scissors">Scissors</string>
+    <string name="tv_score">Score</string>
+    <string name="et_player">Player Name</string>
+</resources>
